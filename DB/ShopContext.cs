@@ -64,7 +64,7 @@ namespace DB
 
         private void UseSQLite(DbContextOptionsBuilder optionsBuilder, string url)
         {
-            optionsBuilder.UseSqlite("Filename=" + url);
+            optionsBuilder.UseSqlite("Filename=" + url);//kjhgfc
         }
     }
 }
